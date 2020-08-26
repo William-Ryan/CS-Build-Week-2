@@ -16,8 +16,6 @@ def romanToNumber(str: str):
         num = num + romans[i]
     
     # add the value to num
-    if index > 0:
-        
 
     # check whether the len of the input is > 0
 
@@ -26,4 +24,4 @@ def romanToNumber(str: str):
     # return num
     return num
 
-print(romanToNumber("X"))
+print(romanToNumber("XM"))
